@@ -120,7 +120,7 @@ public class frmMantenimientoequipo extends javax.swing.JInternalFrame {
         setIconifiable(true);
         setMaximizable(true);
         setResizable(true);
-        setTitle("Mantenimiento Conceptos");
+        setTitle("Mantenimiento equipo");
         setVisible(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -199,7 +199,7 @@ public class frmMantenimientoequipo extends javax.swing.JInternalFrame {
         getContentPane().add(cbox_trabajadores, new org.netbeans.lib.awtextra.AbsoluteConstraints(720, 360, 263, -1));
 
         label4.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
-        label4.setText("-----------------Ingreso de datos del empleado-----------------");
+        label4.setText("-----------------Ingreso de datos del equipo-----------------");
         getContentPane().add(label4, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 50, 360, -1));
 
         jButton2.setText("Ayuda");

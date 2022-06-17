@@ -105,7 +105,7 @@ public class frmpais extends javax.swing.JInternalFrame {
         setIconifiable(true);
         setMaximizable(true);
         setResizable(true);
-        setTitle("Mantenimiento Departamentos");
+        setTitle("Mantenimiento pais");
         setVisible(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -134,7 +134,7 @@ public class frmpais extends javax.swing.JInternalFrame {
         getContentPane().add(btnBuscar, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 300, 95, -1));
 
         label1.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
-        label1.setText("Departamentos");
+        label1.setText("pais");
         getContentPane().add(label1, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 0, -1, -1));
 
         btnModificar.setText("Modificar");
@@ -146,7 +146,7 @@ public class frmpais extends javax.swing.JInternalFrame {
         getContentPane().add(btnModificar, new org.netbeans.lib.awtextra.AbsoluteConstraints(240, 270, 95, -1));
 
         label3.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
-        label3.setText("Nombre departamento");
+        label3.setText("Nombre pais");
         label3.setToolTipText("En este apartado se agrega el nombre de los departamentos que tiene la empresa");
         getContentPane().add(label3, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 110, -1, -1));
         getContentPane().add(txtbuscado, new org.netbeans.lib.awtextra.AbsoluteConstraints(350, 300, 102, -1));
@@ -212,6 +212,8 @@ public class frmpais extends javax.swing.JInternalFrame {
         txtNombre.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(204, 204, 204)));
         txtNombre.setOpaque(false);
         getContentPane().add(txtNombre, new org.netbeans.lib.awtextra.AbsoluteConstraints(190, 110, 200, -1));
+
+        getAccessibleContext().setAccessibleName("Mantenimiento pais");
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

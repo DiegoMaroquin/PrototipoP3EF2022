@@ -136,7 +136,7 @@ public class frmTipojugador extends javax.swing.JInternalFrame {
         });
 
         label3.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
-        label3.setText("Nombre cargo");
+        label3.setText("Nombre jugador");
 
         txtNombre.setFont(new java.awt.Font("Century Gothic", 0, 12)); // NOI18N
         txtNombre.setBorder(javax.swing.BorderFactory.createMatteBorder(0, 0, 1, 0, new java.awt.Color(204, 204, 204)));
@@ -169,7 +169,7 @@ public class frmTipojugador extends javax.swing.JInternalFrame {
         jScrollPane1.setViewportView(tablaCargos);
 
         label5.setFont(new java.awt.Font("Century Gothic", 1, 12)); // NOI18N
-        label5.setText("Estado cargo");
+        label5.setText("Estado ");
         label5.setToolTipText("Aqui se ingresa si el cargo esta activo o inactivo");
 
         lb.setForeground(new java.awt.Color(204, 204, 204));
