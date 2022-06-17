@@ -13,7 +13,7 @@ import java.awt.HeadlessException;
 import javax.swing.JOptionPane;
 import javax.swing.UIManager;
 import prototipos.vista.mdiPrototipo;
-import rrhh.vista.mdiNomina;
+import rrhh.vista.mdideportivo;
 import seguridad.controlador.clsUsuarioConectado;
 import seguridad.modelo.daoUsuario;
 
@@ -198,7 +198,7 @@ public class frmLogin extends javax.swing.JFrame {
                         break; 
                         case "Area RRHH":
                         try {
-                            mdiNomina menunomina = new mdiNomina();
+                            mdideportivo menunomina = new mdideportivo();
                             menunomina.setVisible(true);
                             this.dispose();
                         } catch (Exception e) {
